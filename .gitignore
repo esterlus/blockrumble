@@ -19,3 +19,7 @@ sysinfo.txt
 # visual studio tools
 Assets/UnityVS.meta
 Assets/UnityVS/
+
+# daonet
+Assets/daolib.meta
+Assets/daolib/

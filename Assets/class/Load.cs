@@ -4,14 +4,13 @@ public class Load {
 
     public enum Level {
         Menu,
+        Arena,
     }
 
     public static void LoadLevel(Level level) {
         switch (level) {
-        case Level.Menu:
-            Application.LoadLevel(level.ToString());
-            break;
         default:
+            Application.LoadLevel(level.ToString());
             break;
         }
     }
